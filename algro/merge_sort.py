@@ -1,4 +1,5 @@
 from random import randint
+from utlis.timecounter import timecounter
 
 
 def merge(arr_1, arr_2):
@@ -41,7 +42,7 @@ def merge(arr_1, arr_2):
 
 def merge_sort(arr):
     """
-    sort an array by merge sort
+    sort an array by merge sort function
     :param arr: the array need to sort
     :return: result: sorted array
     """
