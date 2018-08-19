@@ -136,6 +136,9 @@ class Sort(object):
 
         return result
 
+    def quick_sort(self):
+        pass
+
 
 if __name__ == '__main__':
     # 定义一个逆序数组
